@@ -20,7 +20,7 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 * podran ser de distintos tamaños
 
 ### Diagrama de clases
-![Diagrama de clases](url-del-diagrama.png)
+![Diagrama de clases](https://github.com/acominf/TopGear/blob/master/Imagenes/Proyecto-%20Top%20Gear.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
