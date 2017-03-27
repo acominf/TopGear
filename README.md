@@ -12,12 +12,17 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 
 2. Bonificacion
 * Las bonificaciones daran puntos extra el jugador
-* apareceran aleatoriamente durante el juego
+* Apareceran aleatoriamente durante el juego
 
 3. Obstaculo
 * Los obstaculos reduciran la velocidad del jugador
-* apareceran aleatoriamente durante el juego
-* podran ser de distintos tamaños
+* Apareceran aleatoriamente durante el juego
+* Aodran ser de distintos tamaños
+
+4. Mundo
+* Dibujara el escenario principal
+* Cambiara segun el nivel en el que se juegue
+* Sobreescribira algunos datos de la clase on¡bsatculo y bonificacion
 
 ### Diagrama de clases
 ![Diagrama de clases](https://github.com/acominf/TopGear/blob/master/Imagenes/Proyecto-%20Top%20Gear.png)
