@@ -1,42 +1,30 @@
 ### Objetivo del juego/aplicación
-El objetivo del juego/aplicación es ...
+El objetivo del juego/aplicación es que el jugador recorra una pista de carreras procurando llegar siempre en primer lugar.
 
 ### Descripción del juego/aplicación
-La descripción del juego/aplicación es ...
+La descripción del juego/aplicación, es un juego de carreras en donde se tiene que competir para llegar en primer lugar evitando obstaculos y obteniendo bonificaciones extras .
 
 ### Clases principales y sus características
-1. Clase 1
-* caracteristica1
-* caracteristica2
-* caracteristica3
+1. Jugador
+* El jugador se movera por la pista de carreras libremente
+* Podra obtener bonificaciones extras
+* Podra esquivar obsatculos para llegar mas rapido
 
-2. Clase 2
-* caracteristica1
-* caracteristica2
-* caracteristica3
+2. Bonificacion
+* Las bonificaciones daran puntos extra el jugador
+* apareceran aleatoriamente durante el juego
 
-3. Clase 3
-* caracteristica1
-* caracteristica2
-* caracteristica3
-
-4. Clase 4
-* caracteristica1
-* caracteristica2
-* caracteristica3
-
-5. Clase 5
-* caracteristica1
-* caracteristica2
-* caracteristica3
+3. Obstaculo
+* Los obstaculos reduciran la velocidad del jugador
+* apareceran aleatoriamente durante el juego
+* podran ser de distintos tamaños
 
 ### Diagrama de clases
 ![Diagrama de clases](url-del-diagrama.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
-- Nombre completo del autor 1 (@nombreUsuarioGitHub)
-- Nombre completo del autor 2 (@nombreUsuarioGitHub)
+- Enrique Murillo Rivera (@EnriqueMu)
 
 ### Materia(s)
 - Programación Orientada a Objetos
