@@ -25,7 +25,7 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 * Sobreescribira algunos datos de la clase on¡bsatculo y bonificacion
 
 ### Diagrama de clases
-![Diagrama de clases](https://github.com/acominf/TopGear/blob/master/Imagenes/Proyecto-%20Top%20Gear.png)
+![Diagrama de clases](/Imagenes/Proyecto-%20Top%20Gear.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
