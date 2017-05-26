@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Etiqueta
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Etiqueta\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nom
+comment1.target=Etiqueta(java.lang.String)
+comment2.params=dato
+comment2.target=void\ reescribe(java.lang.String)
+numComments=3
