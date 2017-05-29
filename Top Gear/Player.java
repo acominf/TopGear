@@ -8,6 +8,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Player extends Carro
 {
+    private boolean Ban = false;
+    private boolean Ban2 = true;
+    private boolean BanM = false;
+    private boolean BanR = false;
+    private boolean BanB = false;
+    private boolean BanV = false;
+    
     private int distancia = 0, energia = 8, vida = 3, nitroImg=0, contadorTurbulencia = 0;
     private boolean chocado = false, muerto = false, turbo = false;
     
@@ -45,6 +52,8 @@ public class Player extends Carro
     
     public void act() 
     {
+        Colisiones();
+        
         if(Greenfoot.isKeyDown("UP"))
            mover("arriba");
         else if(Greenfoot.isKeyDown("DOWN"))
@@ -59,7 +68,7 @@ public class Player extends Carro
            turbo=false;
            setImage("auto.png");
         }
-        if(choque(Bache.class) & chocado==false | choque(Otros.class) & chocado==false)
+        if(choque(Bache.class) && chocado==false || choque(Otros.class) && chocado==false)
             chocado = true;
         if(turbo==true)
             turboImg();
@@ -100,8 +109,8 @@ public class Player extends Carro
                setRotation(getRotation()+1);
             if(contadorTurbulencia==2){
                 if(choque(Bache.class))
-                    Greenfoot.playSound("Ace.mp3");
-               Greenfoot.playSound("Ace.mp3");
+                    Greenfoot.playSound("frenado.mp3");
+               Greenfoot.playSound("choque.mp3");
             }
         }
         if(contadorTurbulencia >= 60){
@@ -143,5 +152,33 @@ public class Player extends Carro
          turbo = false;//estado del turbo
          chocado = false;
          muerto = false;
+    }
+    
+     public void Colisiones()
+    {
+         Actor Verde = getOneObjectAtOffset(0,0,Verde.class);
+      if(Verde!=null)
+      {
+         getWorld().removeObject(Verde);
+         BanM = true;
+      }
+       Actor Fuego = getOneObjectAtOffset(0,0,Fuego.class);
+      if(Fuego!=null)
+      {
+         getWorld().removeObject(Fuego);
+         BanM = true;
+      }
+      Actor Rojo = getOneObjectAtOffset(0,0,Rojo.class);
+      if(Rojo!=null)
+      {
+         getWorld().removeObject(Rojo);
+         BanR = true;
+      }
+      Actor Azul = getOneObjectAtOffset(0,0,Azul.class);
+      if(Azul!=null)
+      {
+         getWorld().removeObject(Azul);
+         BanB = true;
+      }
     }
 }

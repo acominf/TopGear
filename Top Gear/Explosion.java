@@ -12,10 +12,10 @@ public class Explosion extends Imagen
     private int zoom = 0, contador = 0;
     
     public Explosion(){
-        super ("Baches2.png");
+        super ("gifs.gif");
         images=new GreenfootImage[10];
         for(int i=0; i<10; i++){
-            images[i]=new GreenfootImage("Baches2.png");
+            images[i]=new GreenfootImage("estrellas.png");
             images[i].scale(75+(i*15),75+(i*15));
         }
     }

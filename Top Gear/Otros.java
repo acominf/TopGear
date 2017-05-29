@@ -11,7 +11,7 @@ public class Otros extends Carro
     private int direccion = 0;
     
     public Otros() {
-        super("auto.png",2);
+        super("auto2n.png",2);
         setRotation(180);
     }
     public void act() 
@@ -33,7 +33,7 @@ public class Otros extends Carro
         }
         else
             direccion = 0;
-        if(choque(Otros.class)&getX()>30 | getX()>390 | getX()<70){
+        if(choque(Otros.class) && getX()>30 || getX()>390 || getX()<70){
             getWorld().addObject(new Explosion(),getX(),getY());
             setLocation(Greenfoot.getRandomNumber(260)+100,0);
         }  

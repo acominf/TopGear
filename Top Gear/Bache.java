@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Bache extends Imagen
 {
     public Bache(){
-        super("piedra.png");
+        super("piedra.png",1);
     }
     public void act() 
     {
