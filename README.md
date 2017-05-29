@@ -27,6 +27,9 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 
 ### Pantallas
 ![Principal](/Imagenes/principal.jpg)
+![Principal](/Imagenes/creditos.jpg)
+![Principal](/Imagenes/ayuda.jpg)
+![Principal](/Imagenes/jugando.jpg)
 
 ### Autor(es)
 El autor(es) del proyecto son:
