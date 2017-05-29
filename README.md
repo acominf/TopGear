@@ -31,6 +31,9 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 ![Ayuda](/Imagenes/ayuda.jpg)
 ![Jugando](/Imagenes/jugando.jpg)
 
+### Video
+https://www.youtube.com/watch?v=0By2wmuEoU8
+
 ### Autor(es)
 El autor(es) del proyecto son:
 - Enrique Murillo Rivera (@EnriqueMu)
