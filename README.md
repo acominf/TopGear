@@ -24,7 +24,9 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 
 ### Diagrama de clases
 ![Diagrama de clases](/Imagenes/ProyectoTopGear.png)
-![Diagrama de clases](/Imagenes/Proyecto-%20Top%20Gear.png)
+
+### Pantallas
+![Principal](/Imagenes/principal.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
