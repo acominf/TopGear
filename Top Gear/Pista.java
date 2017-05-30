@@ -37,8 +37,8 @@ public class Pista extends World
             actualizaDatos();
             Bonificacion();
             if(player.getMuerto()){
-                reiniciaNivel();
                 finJuego();
+                reiniciaNivel();
             }
         }
         revisaBotones();
