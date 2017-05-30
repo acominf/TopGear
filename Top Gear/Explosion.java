@@ -15,7 +15,7 @@ public class Explosion extends Imagen
         super ("gifs.gif");
         images=new GreenfootImage[10];
         for(int i=0; i<10; i++){
-            images[i]=new GreenfootImage("estrellas.png");
+            images[i]=new GreenfootImage("gifs.gif");
             images[i].scale(75+(i*15),75+(i*15));
         }
     }
