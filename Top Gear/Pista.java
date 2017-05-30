@@ -94,7 +94,7 @@ public class Pista extends World
             if(limite < 4)
                 senal.setImage(limite+"senal.png");
         }
-        if((player.getMetros()/5)>=2500)
+        if((player.getMetros()/5)>=1000)
             juegoGanado();
         if((player.getMetros()/5)>=500)
             addObject(otros[0],Greenfoot.getRandomNumber(90)+100,0);
@@ -156,7 +156,7 @@ public class Pista extends World
 
     public void finJuego(){
         remueveEscenario();
-        setBackground("stop.png");
+        setBackground("Perdido1.png");
         Greenfoot.delay(400);
         ejecutando=false;//por haber perdido
         menu();
@@ -164,7 +164,7 @@ public class Pista extends World
 
     public void juegoGanado(){
         remueveEscenario();
-        setBackground("ayuda.png");
+        setBackground("Ganaste.png");
         Greenfoot.delay(600);
         ejecutando=false;
         menu();
