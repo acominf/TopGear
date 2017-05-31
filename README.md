@@ -26,10 +26,7 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 ![Diagrama de clases](/Imagenes/ProyectoTopGear.png)
 
 ### Pantallas
-![Principal](/Imagenes/principal.jpg)
-![Creditos](/Imagenes/creditos.jpg)
-![Ayuda](/Imagenes/ayuda.jpg)
-![Jugando](/Imagenes/jugando.jpg)
+![Esta es la pantalla principal en donde se encuentra el menú, para acceder a los creditos y a la ayuda del juego](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/principal.jpg)
 
 ### Video
 https://www.youtube.com/watch?v=0By2wmuEoU8
