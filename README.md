@@ -28,6 +28,22 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 ### Pantallas
 ![Esta es la pantalla principal en donde se encuentra el menú, para acceder a los creditos y a la ayuda del juego](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/principal.jpg)
 
+![En esta pantalla aparecen los datos del desarrollador del juego](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/creditos.jpg)
+
+![En esta pantalla se muestra la ayuda para poder jugar correctamente](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/ayuda.jpg)
+
+![Esta es la pantalla del juego, en ella se lleva a cabo todo el proceso del juego](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/jugando.jpg)
+
+![Esta es la pantalla que parecera al momento de ganar](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/Ganaste.png)
+
+![Esta es la pantalla que parecera al momento de perder](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/Perdido1.png)
+
+![Este el auto del jugador](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/auto.png)
+
+![Este es el auto enemigo](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/auto2n.png)
+
+![Este es el obstaculo principal](https://raw.githubusercontent.com/acominf/TopGear/master/Imagenes/piedra.png)
+
 ### Video
 https://www.youtube.com/watch?v=0By2wmuEoU8
 
