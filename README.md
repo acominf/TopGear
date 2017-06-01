@@ -48,7 +48,7 @@ La descripción del juego/aplicación, es un juego de carreras en donde se tiene
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u7B2ECSNpLU" frameborder="0" allowfullscreen></iframe>
 
 ### Archivo Ejecutable
-"https://github.com/acominf/TopGear/releases/tag/1.1"
+[Ejecutable](https://github.com/acominf/TopGear/releases/tag/1.1)
 
 ### Autor(es)
 El autor(es) del proyecto son:
